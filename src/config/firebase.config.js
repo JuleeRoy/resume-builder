@@ -11,12 +11,7 @@ const firebaseConfig = {
    
     
 
-//  apiKey: "AIzaSyAHcBgcdGJNcU7o7RAwhXjbojBTz9otLnw",
-//  authDomain: "resume-builder-22847.firebaseapp.com",
-//  projectId: "resume-builder-22847",
-//  storageBucket: "resume-builder-22847.appspot.com",
-//  messagingSenderId: "981441012631",
-//  appId: "1:981441012631:web:933cdd81f1f00709d45ad2"
+
   };
 
   const app=getApps.length > 0 ? getApp():initializeApp(firebaseConfig);
